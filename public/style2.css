@@ -5,6 +5,11 @@
 html { 
 	scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+	display: none;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
@@ -265,14 +270,14 @@ a, a:hover{
 	.footer-section{
 		margin: 0px;
 		padding: 90px 0px 90px 0px;
-		background: #060F1E;
+		background: #ffffff;
 	}
 	.footer-section .head{
 
 	}
 	.footer-section .head h1 {
 		margin: 0px;
-		color: #ffffff;
+		color: #000000;
 		font-size: 45px;
 		font-weight: 800;
 		letter-spacing: 1px;
@@ -280,7 +285,7 @@ a, a:hover{
 	}
 	.footer-section .head p{
 		margin: 0px;
-		color: #ffffff;
+		color: #000000;
 		font-size: 14px;
 		font-weight: 400;
 		letter-spacing: 1px;
@@ -292,7 +297,7 @@ a, a:hover{
 	}
 	.footer-section .body h1{
 		margin: 0px;
-		color: #ffffff;
+		color: #000000;
 		font-size: 35px;
 		font-weight: 600;
 		letter-spacing: 1px;
@@ -308,7 +313,7 @@ a, a:hover{
 	}
 	.footer-section .contact-icons li a{
 		font-size: 18px;
-		color: #ffffff;
+		color: #000000;
 		transition: 1s;
 	}
 	.footer-section .contact-icons li a .fa {
@@ -333,7 +338,7 @@ a, a:hover{
 	}
 	.footer-section .social-icons li a{
 		font-size: 20px;
-		color: #ffffff;
+		color: #000000;
 		margin: 0px 8px 10px 0px;
 		transition: 1s;
 	}

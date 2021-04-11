@@ -18,6 +18,27 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
   res.render('page');
 })
+app.get('/about', (req, res) => {
+  res.render('about');
+})
+app.get('/contact', (req, res) => {
+  res.render('contact');
+})
+app.get('/medicine', (req, res) => {
+  res.render('medicine');
+})
+app.get('/find', (req, res) => {
+  res.render('find');
+})
+app.get('/signup', (req, res) => {
+  res.render('signup');
+})
+app.get('/signin', (req, res) => {
+  res.render('signin');
+})
+app.get('/cart', (req, res) => {
+  res.render('cart');
+})
 app.get('/room', (req, res) => {
   res.redirect(`/${uuidV4()}`)
 })
